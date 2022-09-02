@@ -60,3 +60,12 @@ Finally the second column is stored as a single set of all alphabetically sorted
 Step 2 is to look for the matches of the sorted sub strings in the word-list
   For that I store the word list in a dictionary where the key to the word is its alphabetically sorted counterpart
   I use a multimap data structure because a key of sorted characters may point to different words in the word list. 
+  
+### Complexity Ananlysis
+The total time complexity is shared among 3 steps: 
+  1. The time taken to find all substrings (O(n^2), where n is the size of the queried string (eg. dog)).
+  2. The time taken to store all the words in the program's memory (O(m), where m is the number of words in the word list).
+  3. The time taken to look up those substrings in the dictionary (This is done in constant time O(1) for every substring).
+  
+
+

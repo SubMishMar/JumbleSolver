@@ -48,7 +48,8 @@ Step 1b: Loop over the character array starting from the second element (c)
              append at the front the character for all elements of the previous sets of strings and insert
              the appended strings to the current set of strings
   Looping over     Set of two lettered and complete strings
-             c     {cd, ce cde}  + insert{append_at_front(c, {de})} // The set data structure ensures that elements are unique
+             c     {cd, ce cde}  + insert{append_at_front(c, {de})} 
+                   // The set data structure ensures that elements are unique
              b     {bc, bd, be, bcde} + insert{append_at_front(b, {cd, ce, cde}) 
                                       + append_at_front(b, {de})}
              a     {ab, ac, ad, ae, abcde} + insert(append_at_front(a, {bc, bd, be, bcde}) 

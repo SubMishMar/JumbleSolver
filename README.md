@@ -17,7 +17,9 @@ cmake ..
 make
 ```
 ### Running the project
+Inside the build folder run
 ```
 ./JumbleSolver ../data/word_list.txt dog
 
 ```
+Here `../data/word_list.txt` is the dictionary of words and `dog` is the query string which can be anything you want, like rat, car, anagram, and so on.

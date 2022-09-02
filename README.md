@@ -2,9 +2,15 @@
 A Program to solve Jumble Challenge
 
 ## Instructions
-Clone or download this repo (preferably in your Ubuntu system) and inside JumbleSolver Folder build this project using the following commands:
+Clone or download this repo (preferably in your Ubuntu system) 
+### Cloning
+```
+git clone git@github.com:SubMishMar/JumbleSolver.git
+```
+and inside JumbleSolver Folder build this project using the following commands:
 ### Building the project
 ```
+cd JumbleSolver
 mkdir build
 cd build
 cmake ..

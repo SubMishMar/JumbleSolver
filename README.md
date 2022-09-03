@@ -44,7 +44,7 @@ The first column above is stored as a character array (vector)
 The second column above is stored as an array (vector) of set of strings
 The next step is the insert to the above sets more possible alphabetically sorted substrings
 
-Step 1b: Loop over the character array starting from the second element (c)
+Step 1b: Loop over the character array starting from the second element (c) and
              append at the front the character for all elements of the previous sets of strings and insert
              the appended strings to the current set of strings
   Looping over     Set of two lettered and complete strings
